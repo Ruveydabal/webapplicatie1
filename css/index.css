@@ -1,0 +1,816 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #55423D;
+}
+/* hier begint de nav */
+.nav-balk{
+    height: 100px;
+    width: 100%;
+    background-color: #FFFFFE;
+    display: flex;
+    flex-direction: row;
+}
+
+.blok-logo{
+    height: 100px;
+    width: 20%;
+    background-color: #FFFFFE;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-foto{
+    height: 100%;
+    width: 150px;
+}
+
+.blok-home{
+    height: 100px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #FFFFFE;
+}
+
+.tekst{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FFFFFE;
+    padding-right: 20px;
+    color: #271C19;
+}
+
+.blok{
+    height: 100px;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #FFFFFE;
+}
+
+.blok-zoeken{
+    height: 100px;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFE;
+}
+
+.balk{
+    height: 70px;
+    width: 70%;
+    background-color: #FFF3EC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.tekst3{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FFF3EC;
+    color: #C5C5C5;
+}
+
+.blok-inlog{
+    height: 100px;
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #FFFFFE;
+}
+/* einde */
+
+/* begin currently reading */
+.box{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.blok-links{
+    height: 500px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blok-boek{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #FFF3EC;
+    justify-content: center;
+    padding: 5px;
+}
+
+.blok-boek-zonder{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.boek-box{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+}
+
+
+.boek{
+    height: 140px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #D9D9D9; */
+}
+
+.balk-tekst-boek{
+    height: auto;
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.box-update{
+    height: 100px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF3EC;
+    border-radius: 5px;
+}
+
+.tekst6{
+    font-size: 18px;
+    font-weight: medium;
+    color: #271C19;
+}
+
+.tekst4{
+    font-size: 18px;
+    font-weight: medium;
+    color: #271C19;
+    background-color: #FFF3EC;
+}
+
+.blok-boeken-nieuw{
+    height: 500px;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.blok-boeken-rechts2{
+    height: 100%;
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blok-boeken-rechts{
+    height: 100%;
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blok-boeken{
+    height: 80%;
+    width: 70%;
+    background-color: #E78FB3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+}
+
+.blok-foto-boeken{
+    height: 180px;
+    width: 95%;
+    /* border-radius: 25px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E78FB3;
+    justify-content: center;
+    /* background-color: #D9D9D9; */
+}
+
+.blok-tekst-foto{
+    height: 150px;
+    width: 80%;
+    background-color: #E78FB3;
+}
+
+.balk-tekst{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #E78FB3;
+}
+
+.box-klik{
+    height: 50px;
+    width: 90px;
+    background-color: #FFF3EC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.tekst7{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF3EC;
+    background-color: #E78FB3;
+}
+
+.blok-foto-boeken2{
+    height: 150px;
+    width: 90%;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E78FB3;
+    /* background-color: #D9D9D9; */
+}
+
+.blok-tekst-foto2{
+    height: 200px;
+    width: 85%;
+    background-color: #E78FB3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.balk2-tekst{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #E78FB3;
+}
+
+.balk-tekst3{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: #E78FB3;
+}
+
+.tekst8{
+    font-size: 20px;
+    font-weight: bold;
+    color: #271C19;
+    background-color: #FFF3EC;
+}
+/* einde */
+
+/* begin boeken onder */
+.blok-onder{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.balk-onder{
+    height: 300px;
+    width: 85%;
+    background-color: #FFF3EC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+.balk-onder-box{
+    height: 80%;
+    width: 85%;
+    background-color: #FFF3EC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.box-onder{
+    height: 270px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF3EC;
+}
+
+.box-seen{
+    height: 80px;
+    width: 75%;
+    background-color: #FFFFFE;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.tekst9{
+    font-size: 20px;
+    font-weight: bold;
+    color: #271C19;
+    background-color: #FFFFFE;
+}
+
+.box-foto-onder{
+    height: 120px;
+    width: 80%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #FFF3EC;
+    /* background-color: #D9D9D9; */
+}
+
+.box-onder2{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #FFF3EC;
+}
+
+.login-blok{
+    height: 603px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+
+.login{
+    height: 75%;
+    width: 50%;
+    background-color: #FFF3EC;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.login-balk-box{
+    height: 90px;
+    width: 100%;
+    background-color: #FFF3EC;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.login-balk{
+    height: 85%;
+    width: 90%;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.balk-onder-login{
+    height: 80px;
+    width: 40%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+.login-balk-box-groot{
+    height: 250px;
+    width: 100%;
+    background-color: #FFF3EC;
+    border-radius: 25px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.box-delete-boek{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF3EC;
+    border-radius: 25px;
+}
+
+.login-balk-groot{
+    height: 230px;
+    width: 90%;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+}
+
+.tekst5{
+    font-size: 15px;
+    font-weight: bold;
+    color: #271C19;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    margin-left: 15px;
+    height: 25px;
+    /* padding: 10px; */
+}
+
+.tekst-login{
+    font-size: 30px;
+    font-weight: bold;
+    color: #271C19;
+    background-color: #FFF3EC;
+}
+
+.blok-login-onder{
+    height: 20px;
+    width: 100%;
+    /* background-color: red; */
+    border-width: 2px;
+    display: flex;
+    border-radius: 25px;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    border-color: #FFF3EC;
+}
+
+.nieuw-knop{
+    height: 30px;
+    width: 50px;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.login-balk-klein{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+.login-background{
+    background-color: #FFFFFF;
+    width: auto;
+    height: 50px;
+    padding: 1px;
+    border-radius: 25px;
+    height: 25px;
+    border: none;
+}
+
+.container{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+    justify-content: space-around;
+}
+
+.balk-klein{
+    height: 50px;
+    width: 100%;
+    /* border-bottom: solid; */
+    border-width: 2px;
+    border-color: #FFF3EC;
+}
+
+.box-boek-browse{
+    height: 220px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: solid;
+    border-width: 2px;
+    border-color: #FFF3EC;  
+}
+
+.container-row{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-boek-browse-zonder{
+    height: 220px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.boek-groot-box{
+    height: 550px;
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.boek-groot{
+    height: 500px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.tekst-boek-groot{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.box-tekst-boek{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+ 
+}
+
+.productRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 95%;
+    height: auto;
+}
+
+.singleProduct{
+    height: auto;
+    width: 400px;
+    padding: 20px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* border-right: solid; */
+    border-top: solid;
+    border-width: 2px;
+    border-color: #FFFFFE;  
+}
+
+.tekst-product{
+    height: auto;
+    width: auto;
+}
+
+.background{
+    border: solid;
+}
+
+.afbeelding{
+    background-color: red;
+    height: 250px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.naam-schrijver{
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+
+.naam{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
+
+.omschrijving{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+    height: auto;
+    width: 50%;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: plum; */
+    height: 150px;
+    width: 20%;
+}
+
+.datum{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: aqua; */
+    height: 50px;
+    width: 100%;
+}
+
+.afbeelding-boek-groot{
+    width: 360px;
+}
+
+.delete-blok{
+    height: 400px;
+    padding: 51px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.blok-delete{
+    height: 300px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #FFF3EC;
+}
+
+.blok-nieuw-boek{
+    height: auto;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #FFF3EC;
+}
+
+.div{
+    width: 100%;
+    height: 400px;
+    /* height: auto; */
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+.balk-update{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    /* border: solid; */
+    margin-top: 10px;
+    background-color: #FFF3EC;
+}
+
+.update-background{
+    background-color: #FFF3EC;
+}
+
+.row-update{
+    height: 50px;
+    width: auto;
+    display: flex;
+    border-radius: 25px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF3EC;
+}
